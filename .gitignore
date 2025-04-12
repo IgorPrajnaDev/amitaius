@@ -1,0 +1,23 @@
+# Arquivos compilados
+*.o
+*.a
+*.out
+*.exe
+*.dll
+
+# Arquivos de build
+build/
+bin/
+obj/
+
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.bak
