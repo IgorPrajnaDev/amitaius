@@ -9,24 +9,27 @@ https://www.ime.unicamp.br/~marcia/AlgebraLinear/aplicacao_criptografia.html
 
 Vejam as issues: lá tem as etapas pra fazer cada coisa.
 
-Esqueleto dos arquivos:
 
-amitaius/
-├── include/
-│   ├── hill.h
-│   ├── matrix.h
-│   └── utils.h
+## 📁 Estrutura do Projeto
+
+```bash
+hill-cipher-c/
+├── include/                   # Arquivos de cabeçalho (.h)
+│   ├── hill.h                # Interface da cifra de Hill
+│   ├── matrix.h              # Funções de manipulação de matrizes
+│   └── utils.h               # Utilitários (conversão de texto, mod, etc.)
 │
-├── src/
-│   ├── hill.c
-│   ├── matrix.c
-│   └── utils.c
+├── src/                      # Implementações (.c)
+│   ├── hill.c               # Implementação da cifra de Hill (encrypt/decrypt)
+│   ├── matrix.c             # Implementações matemáticas (multiplicação, inversa, etc.)
+│   └── utils.c              # Funções auxiliares
 │
-├── test/
-│   └── test_cases.c           # (opcional) para testes simples
+├── test/                     # (Opcional) Testes unitários simples
+│   └── test_cases.c
 │
-├── main.c
-├── Makefile
-├── README.md
-├── .gitignore
-└── LICENSE
+├── main.c                    # Ponto de entrada do programa
+├── Makefile                  # Script de compilação do projeto
+├── README.md                 # Documentação do projeto
+├── .gitignore                # Arquivos e pastas a serem ignorados pelo Git
+└── LICENSE                   # Licença do projeto (ex: MIT)
+
