@@ -7,7 +7,7 @@ toda a matemática por trás do algorítmo é encontrada aqui:
 
 https://www.ime.unicamp.br/~marcia/AlgebraLinear/aplicacao_criptografia.html
 
-Vejam as issues: lá tem as etapas pra fazer cada coisa.
+Vejam as issues: lá tem as etapas pra fazer cada coisa. Façam as funções no diretório certo. 
 
 
 ## 📁 Estrutura do Projeto
