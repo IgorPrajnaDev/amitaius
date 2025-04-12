@@ -7,6 +7,8 @@ toda a matemática por trás do algorítmo é encontrada aqui:
 
 https://www.ime.unicamp.br/~marcia/AlgebraLinear/aplicacao_criptografia.html
 
+**POR FAVOR LEIA! É NECESSÁRIO TER OLHAR CRÍTICO POIS NÃO SABEMOS AINDA SE AS FUNÇÕES DO JEITO COM SÃO SUGERIDAS VÃO FUNCIONAR PARA O NOSSO PROPÓSITO**
+
 Vejam as issues: lá tem as etapas pra fazer cada coisa. Façam as funções no diretório certo. 
 
 
