@@ -8,3 +8,25 @@ toda a matemática por trás do algorítmo é encontrada aqui:
 https://www.ime.unicamp.br/~marcia/AlgebraLinear/aplicacao_criptografia.html
 
 Vejam as issues: lá tem as etapas pra fazer cada coisa.
+
+Esqueleto dos arquivos:
+
+amitaius/
+├── include/
+│   ├── hill.h
+│   ├── matrix.h
+│   └── utils.h
+│
+├── src/
+│   ├── hill.c
+│   ├── matrix.c
+│   └── utils.c
+│
+├── test/
+│   └── test_cases.c           # (opcional) para testes simples
+│
+├── main.c
+├── Makefile
+├── README.md
+├── .gitignore
+└── LICENSE
